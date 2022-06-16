@@ -23,7 +23,7 @@
   margin-top: 15px;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
   border: solid 2px white;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
@@ -79,33 +79,116 @@
   background-color: rgb(47, 122, 150);
 }
 
-.hero-content {
-  display: flex;
-  width: 1100px;
-  height: 258px;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 140px;
+.benefits-text-content {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
-.hero-heading {
-  margin: 0;
+.benefits-heading {
   font-family: 'Open Sans';
   font-weight: 700;
-  font-size: 30px;
-  line-height: 40px;
+  font-size: 40px;
+  line-height: 52px;
   color: rgba(0, 0, 0, 1);
-  margin-bottom: 25px;
+  margin: 0;
+  margin-bottom: 15px;
 }
 
-.hero-text {
-  margin: 0;
-  margin-bottom: 25px;
+.benefits-text {
   font-family: 'Open Sans';
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: rgba(0, 0, 0, 1);
+  margin: 0;
+}
+
+.back-color-cards {
+  margin-top: 70px;
+  height: 2300px;
+  background-color: rgba(244, 244, 244, 1);
+  padding: 70px 0px;
+}
+
+.cards-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards-list-item {
+  width: 804px;
+  height: 378px;
+  margin-bottom: 64px;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 1px #fff;
+  border-radius: 5px;
+  box-shadow: 0px 10px 34px rgba(149, 157, 165, 0.563);
+}
+
+.second {
+  height: 410px;
+}
+
+.last {
+  height: 346px;
+}
+
+.item-content {
+  display: flex;
+  width: 740px;
+  height: 314px;
+  margin: 32px;
+}
+
+.cards-text-content {
+  margin-left: 40px;
+  width: 500px;
+  height: 314px;
+}
+
+.cards-heading {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 1);
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.cards-text {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 1);
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.spans {
+  display: flex;
+  flex-direction: column;
+}
+
+.cards-elements {
+  margin-bottom: 4px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.circle-img {
+  margin-right: 10px;
 }
 
 .benefits-button {
@@ -119,6 +202,7 @@
   color: rgba(255, 255, 255, 1);
   border-radius: 5px;
   text-decoration: none;
+  margin-top: 16px;
 }
 
 .benefits-button:hover {
@@ -129,161 +213,13 @@
   background-color: rgb(47, 122, 150);
 }
 
-.benefits-heading {
-  font-family: 'Open Sans';
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 32px;
-  text-align: center;
-  color: rgba(0, 0, 0, 1);
-  margin: 0;
-  margin-bottom: 20px;
-}
-
-.benefits-text {
-  font-family: 'Open Sans';
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
-  color: rgba(0, 0, 0, 1);
-  margin: 0;
-  margin-bottom: 25px;
-}
-
-.cards {
-  display: flex;
-  flex-direction: column;
-}
-
-.cards-list {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 1100px;
-  height: 260px;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  margin-top: 50px;
-}
-
-.cards-list-item {
-  width: 320px;
-  height: 260px;
-  padding-top: 25px;
-  text-align: center;
-  border: solid 2px white;
-  box-shadow: rgba(149, 157, 165, 0.419) 0px 8px 24px;
-  border-radius: 5px;
-  transition: ease 1s;
-}
-
-.cards-list-item:hover {
-  transform: scale(1.2);
-}
-
-.cards-img {
-  width: 200px;
-  height: 130px;
-}
-
-.cards-heading {
-  font-family: 'Open Sans';
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 26px;
-  color: rgba(0, 0, 0, 1);
-  margin: 0;
-  margin-top: 16px;
-  margin-bottom: 16px;
-}
-
-.cards-text {
-  font-family: 'Open Sans';
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: rgba(0, 0, 0, 1);
-  margin: 0;
-}
-
-.second {
-  width: 710px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 40px;
-}
-
-.links {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 375px;
-  height: 50px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
 .benefits-link {
   font-family: 'Open Sans';
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: rgba(0, 186, 252, 1);
-}
-
-.working {
-  margin-top: 120px;
-}
-
-.bottom {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 1100px;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  margin-top: 50px;
-  flex-direction: column;
-}
-
-.bottom-item {
-  display: flex;
-  align-items: center;
-  margin-bottom: 60px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.bottom-img {
-  margin-right: 50px;
-}
-
-.bottom-cards-heading {
-  font-family: 'Open Sans';
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 26px;
-  color: rgba(0, 0, 0, 1);
-}
-
-.bottom-cards-text {
-  font-family: 'Open Sans';
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  color: rgba(0, 0, 0, 1);
-}
-
-.with-img {
-  margin-right: 50px;
-}
-
-.bottom-button {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-left: 10px;
 }
 
 .back-color-form {
@@ -332,7 +268,7 @@
 
 .form-input {
   width: 300px;
-  height: 56px;
+  height: 51px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 25px;
